@@ -21,13 +21,13 @@ int main() {
         cout << "\n===================================" << endl;
         cout << "       MENU GŁÓWNE PROGRAMU        " << endl;
         cout << "===================================" << endl;
-        cout << "Sekcja 1. Operacje wejscia/wyjscia" << endl;
+        cout << "Sekcja 1. Funkcja main" << endl;
         cout << "  "<<iter++<<". Zadanie 1.2 - Przykłady cstring" << endl;
 
-        cout << "\nSekcja 2. Operacje wejscia/wyjscia" << endl;
+        cout << "\nSekcja 2. Zwracanie przez funkcje" << endl;
         cout << "  "<<iter++<<". Zadanie 2.4 - Klasa punkt i przeciążenie dodawania" << endl;
 
-        cout << "\nSekcja 3. Operacje wejscia/wyjscia" << endl;
+        cout << "\nSekcja 3. Arytmetyka wskaźników" << endl;
         cout << "  "<<iter++<<". Zadanie 3.4 - Przesuwanie elementów tablicy" << endl;
         cout << "  "<<iter++<<". Zadanie 3.15 - Bitowa cos" << endl;
 

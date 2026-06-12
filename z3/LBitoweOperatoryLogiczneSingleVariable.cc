@@ -10,13 +10,15 @@
 using namespace std;
 
 int main(){
-    int arr[8];
+    int arr[8] = {0};
     cout<< "podaj 8 liczb 0 lub 1: "<<endl;
     for (int i=0;i<8;i++){
         int a;
         cin >> a;
         if (a == 1){
             arr[i] = 1;
+        } else{
+            arr[i] = 0;
         }
     }
     cout << endl;
