@@ -1,0 +1,3 @@
+/home/kajmus/Dokumenty/studia/c++/mine/ZadClassKcpp/build/CMakeFiles/program_ostateczny.dir
+/home/kajmus/Dokumenty/studia/c++/mine/ZadClassKcpp/build/CMakeFiles/edit_cache.dir
+/home/kajmus/Dokumenty/studia/c++/mine/ZadClassKcpp/build/CMakeFiles/rebuild_cache.dir

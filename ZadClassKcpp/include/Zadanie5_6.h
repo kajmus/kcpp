@@ -3,7 +3,6 @@
 
 #include "ZadKcpp.h"
 
-// Twoje klasy z zadania (tylko deklaracje!)
 class Figura {
 public:
     virtual double Pole() = 0;
@@ -16,15 +15,45 @@ class Kwadrat : public Figura {
 private:
     double a;
 public:
-    Kwadrat(double bok); // Tylko deklaracja
+    Kwadrat(double bok);
     double Pole() override;
     double Obwod() override;
     void print() override;
 };
 
-// ... (tutaj zadeklaruj Prostokat, Trojkat, Kolo w ten sam sposób)
+class Prostokat : public Figura {
+private:
+    double a, b;
+public:
+    Prostokat(double bokA, double bokB);
+    double Pole() override;
+    double Obwod() override;
+    void print() override;
+};
 
-// Główna klasa "opakowująca" to zadanie dla menu
+class Trojkat : public Figura {
+private:
+    double a, b, c;
+public:
+    Trojkat(double bokA, double bokB, double bokC);
+    double Obwod() override;
+    double Pole() override;
+    void print() override;
+};
+
+class Kolo : public Figura {
+private:
+    double r;
+    const double PI = 3.141592653589793;
+public:
+    Kolo(double promien);
+    double Pole() override;
+    double Obwod() override;
+    void print() override;
+    double Dystans(double x);
+};
+
+
 class Zadanie5_6 : public ZadKcpp {
 public:
     void run() override;

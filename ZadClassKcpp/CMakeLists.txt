@@ -15,4 +15,4 @@ include_directories(include)
 file(GLOB SRC_FILES "src/*.cc")
 
 # 6. Definicja programu wynikowego (main.cc + pliki z src)
-add_executable(program_menu main.cc ${SRC_FILES})
+add_executable(program_ostateczny main.cc ${SRC_FILES})
